@@ -1,0 +1,9 @@
+---
+layout: default
+title: JagCesar | Passionate iOS developer with a crush for UX and ID.
+---
+
+  {% for post in site.posts %}
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p>{{ post.content }}</p>
+  {% endfor %}

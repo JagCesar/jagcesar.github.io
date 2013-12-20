@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'),
+url(http://themes.googleusercontent.com/static/fonts/bitter/v4/B2Nuzzqgk0xdMJ132boli-vvDin1pK8aKteLpeZ5c0A.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bitter-Bold'),
+url(http://themes.googleusercontent.com/static/fonts/bitter/v4/JGVZEP92dXgoQBG1CnQcfLO3LdcAZYWl9Si6vvxL-qU.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/toadOcfmlt9b38dHJxOBGOHJdKliW2M9IhUT0esa8kM.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlDLXPPWpYIJRcQ99gLLWTOQ.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/toadOcfmlt9b38dHJxOBGBgDywzySrQSFSEUM6OqW_g.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Source Sans Pro Light Italic'),
+local('SourceSansPro-LightIt'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/fpTVHK8qsXbIeTHTrnQH6Dj6YCLxpRYniYM23zYVWED3rGVtsTkPsbDajuO5ueQw.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/M2Jd71oPJhLKp0zdtTvoMz0XmYCqUxxFAeKhGk-VuZ8.woff)
+format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'),
+local('SourceSansPro-BoldIt'),
+url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/fpTVHK8qsXbIeTHTrnQH6MlsikChNR2XgDq1kJ8foAf3rGVtsTkPsbDajuO5ueQw.woff)
+format('woff');
+}
+
