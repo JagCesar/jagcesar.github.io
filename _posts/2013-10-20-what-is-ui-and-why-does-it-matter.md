@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: What is UI, and why does it matter?
 category: Software engineering
 tags:
