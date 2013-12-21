@@ -18,26 +18,17 @@ rel="bookmark">{{ post.title }}</a>
 		</h1>
 		
 		<div class="entry-meta">
-			<span class="date"><a
-href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/"
-title="Permalink to What is UI, and why does it matter?"
-rel="bookmark"><time class="entry-date"
-datetime="2013-10-20T21:32:55+00:00">October 20,
-2013</time></a></span><span class="categories-links"><a
-href="http://www.jagcesar.se/category/software-engineering/" title="View
-all posts in Software Engineering" rel="category tag">Software
-Engineering</a></span><span class="tags-links"><a
-href="http://www.jagcesar.se/tag/dont-make-me-think/" rel="tag">Don't
-make me think</a>, <a
-href="http://www.jagcesar.se/tag/human-machine-interaction/"
-rel="tag">human-machine interaction</a>, <a
-href="http://www.jagcesar.se/tag/interaction-design/"
-rel="tag">Interaction Design</a>, <a
-href="http://www.jagcesar.se/tag/intuitive/" rel="tag">intuitive</a>, <a
-href="http://www.jagcesar.se/tag/simplicity/" rel="tag">Simplicity</a>,
-<a href="http://www.jagcesar.se/tag/user-experience/" rel="tag">User
-Experience</a>, <a href="http://www.jagcesar.se/tag/user-interface/"
-rel="tag">User Interface</a></span><span class="author vcard"><a
+			<span class="date">
+				<a href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/" title="Permalink to What is UI, and why does it matter?" rel="bookmark"><time class="entry-date" datetime="{{site.time}}}">{{ site.time | date_to_long_string }}</time></a></span>
+			<span class="categories-links">
+				<!-- <a href="http://www.jagcesar.se/category/software-engineering/" title="View all posts in Software Engineering" rel="category tag">Software Engineering</a> -->
+				<a title="View all posts in {{ post.category }}" rel="category tag">{{ post.category }}</a>
+			</span><span class="tags-links">
+			{% for tag in post.tags %}
+			<!-- <a href="http://www.jagcesar.se/tag/{{tag | uri_escape}}/" rel="tag">{{tag}}</a>, -->
+				<a rel="tag">{{tag}}</a>,
+			{% endfor %}
+			</span><span class="author vcard"><a
 class="url fn n" href="http://www.jagcesar.se/author/cesar/" title="View
 all posts by Cesar" rel="author">Cesar</a></span>
 </div><!-- .entry-meta -->
