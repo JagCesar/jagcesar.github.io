@@ -1,8 +1,7 @@
 <html lang="en-US"><!--<![endif]--><head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>JagCesar | Passionate iOS developer with a crush for UX
-and ID</title>
+	<title>JagCesar | {{ page.title }}</title>
 	<!--[if lt IE 9]>
 	<script src="js/html5.js"></script>
 	<![endif]-->
@@ -43,13 +42,14 @@ class="navigation main-navigation" role="navigation">
 class="menu-toggle">Menu</h3>
 					<a class="screen-reader-text
 skip-link" href="#content" title="Skip to content">Skip to content</a>
-					<div
-class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu"><li
-id="menu-item-137" class="menu-item menu-item-type-custom
-menu-item-object-custom current-menu-item current_page_item
-menu-item-home menu-item-137"><a
-href="{{ site.url }}/">Home</a></li>
-</ul></div>					
+					<div class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu">
+						{% for page in site.pages %}
+						<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-137">
+							<a href="{{ page.url }}/">{{ page.menu-title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>					
 			</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
