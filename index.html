@@ -4,33 +4,31 @@ title: JagCesar | Passionate iOS developer with a crush for UX and ID.
 ---
 
   {% for post in site.posts %}
-      <article id="post-152" class="post-152 post type-post status-publish
-format-standard hentry category-software-engineering
-tag-dont-make-me-think tag-human-machine-interaction
-tag-interaction-design tag-intuitive tag-simplicity tag-user-experience
-tag-user-interface">
+      <article class="post type-post status-publish format-standard hentry">
 	<header class="entry-header">
-		
 				<h1 class="entry-title">
-			<a
-href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/"
-rel="bookmark">{{ post.title }}</a>
+			<a href="software-engineering/what-is-ui-and-why-does-it-matter/" rel="bookmark">{{ post.title }}</a>
 		</h1>
 		
 		<div class="entry-meta">
 			<span class="date">
-				<a href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/" title="Permalink to What is UI, and why does it matter?" rel="bookmark"><time class="entry-date" datetime="{{site.time}}}">{{ site.time | date_to_long_string }}</time></a></span>
+				<a href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/" title="Permalink to {{ post.title }}" rel="bookmark">
+					<time class="entry-date" datetime="{{site.time}}}">{{ site.time | date_to_long_string }}</time>
+				</a>
+			</span>
 			<span class="categories-links">
 				<!-- <a href="http://www.jagcesar.se/category/software-engineering/" title="View all posts in Software Engineering" rel="category tag">Software Engineering</a> -->
 				<a title="View all posts in {{ post.category }}" rel="category tag">{{ post.category }}</a>
-			</span><span class="tags-links">
+			</span>
+			<span class="tags-links">
 			{% for tag in post.tags %}
 			<!-- <a href="http://www.jagcesar.se/tag/{{tag | uri_escape}}/" rel="tag">{{tag}}</a>, -->
 				<a rel="tag">{{tag}}</a>,
 			{% endfor %}
-			</span><span class="author vcard"><a
-class="url fn n" href="http://www.jagcesar.se/author/cesar/" title="View
-all posts by Cesar" rel="author">Cesar</a></span>
+			</span>
+			<span class="author vcard">
+				<a class="url fn n" href="http://www.jagcesar.se/about/" title="View all posts by Cesar" rel="author">Cesar</a>
+			</span>
 </div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -44,97 +42,3 @@ all posts by Cesar" rel="author">Cesar</a></span>
 </article><!-- #post -->
 
   {% endfor %}
-
-
-
-										
-<article id="post-152" class="post-152 post type-post status-publish
-format-standard hentry category-software-engineering
-tag-dont-make-me-think tag-human-machine-interaction
-tag-interaction-design tag-intuitive tag-simplicity tag-user-experience
-tag-user-interface">
-	<header class="entry-header">
-		
-				<h1 class="entry-title">
-			<a
-href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/"
-rel="bookmark">What is UI, and why does it matter?</a>
-		</h1>
-		
-		<div class="entry-meta">
-			<span class="date"><a
-href="http://www.jagcesar.se/software-engineering/what-is-ui-and-why-does-it-matter/"
-title="Permalink to What is UI, and why does it matter?"
-rel="bookmark"><time class="entry-date"
-datetime="2013-10-20T21:32:55+00:00">October 20,
-2013</time></a></span><span class="categories-links"><a
-href="http://www.jagcesar.se/category/software-engineering/" title="View
-all posts in Software Engineering" rel="category tag">Software
-Engineering</a></span><span class="tags-links"><a
-href="http://www.jagcesar.se/tag/dont-make-me-think/" rel="tag">Don't
-make me think</a>, <a
-href="http://www.jagcesar.se/tag/human-machine-interaction/"
-rel="tag">human-machine interaction</a>, <a
-href="http://www.jagcesar.se/tag/interaction-design/"
-rel="tag">Interaction Design</a>, <a
-href="http://www.jagcesar.se/tag/intuitive/" rel="tag">intuitive</a>, <a
-href="http://www.jagcesar.se/tag/simplicity/" rel="tag">Simplicity</a>,
-<a href="http://www.jagcesar.se/tag/user-experience/" rel="tag">User
-Experience</a>, <a href="http://www.jagcesar.se/tag/user-interface/"
-rel="tag">User Interface</a></span><span class="author vcard"><a
-class="url fn n" href="http://www.jagcesar.se/author/cesar/" title="View
-all posts by Cesar" rel="author">Cesar</a></span>
-</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
-		<div class="entry-content">
-		<p>People keep name dropping UI, but I’ve noticed that
-not everybody know what it stands for and why it’s an important part of
-software engineering.</p>
-<p>I googled “UI” real quick to see what the internet thought about it.
-This is the first sentence on the article about UI on wikipedia:</p>
-<blockquote><p>“The&nbsp;<b>user interface</b>, in the&nbsp;industrial
-design&nbsp;field of&nbsp;human–machine interaction, is the space where
-interaction between humans and machines occurs.” – <a
-href="http://en.wikipedia.org/wiki/User_interface">Wikipedia</a></p></blockquote>
-<p>When most people think about UI they imagine a computer or a
-smartphone. Basically a screen with some kind of input device so one can
-interact with the information on the screen. And yes, this is UI. But
-there is more to it.</p>
-<p><a href="http://www.apple.com/ios/siri/">Siri</a>, for example, is a
-kind of UI. The only difference is that instead of using your fingers to
-tap on a mouse or a screen, you use your voice to give her
-instructions.&nbsp;So everything that helps you interact with the
-hardware is &nbsp;a UI. The small red LED that lights up when you turn
-your TV off is actually also a UI.</p>
-<p>So, why is UI so important? Without UI we wouldn’t be able to use our
-computers, smartphones, TVs or even our cars. Yup, the steering wheel is
-also a UI (amongst other things in the car).</p>
-<p>But that isn’t all. Now that you’ve understood why user interface is
-important, it’s even more important to face the fact that there are good
-and bad user interfaces. This is where <strong>Interaction
-Design</strong>&nbsp;(ID) comes in.</p>
-<p>For example, if Siri only understood Swedish when launched in the US
-it would be a very poor interaction design. Siri would still be a user
-interface, but not a good one as all americans would need to learn
-Swedish to speak with her.</p>
-<blockquote><p>An important thing to remember as an interaction designer
-is that you don’t want the user to think. The less the user has to
-think, the more&nbsp;<strong>intuitive</strong>&nbsp;the user interface
-will be.</p></blockquote>
-<p>An important thing to remember as an interaction designer is that you
-don’t want the user to think. The less the user has to think, the more
-<strong>intuitive</strong> the user interface will be. And the more
-intuitive the user interface is, the better <strong>User
-Experience</strong> (UX).</p>
-<p>Of course there is a lot more to cover on these topics, but I hope
-this was enough to make you realise that features and cool functions
-isn’t everything. If all that awesomeness is hidden behind
-an&nbsp;incomprehensible UI, no one will ever see or enjoy all that
-awesomeness you’ve put there.</p>
-			</div><!-- .entry-content -->
-	
-	<footer class="entry-meta">
-		
-			</footer><!-- .entry-meta -->
-</article><!-- #post -->
