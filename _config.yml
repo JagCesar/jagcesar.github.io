@@ -1,5 +1,2 @@
-safe: true
-lsi: false
-pygments: true
 permalink: none
-baseurl: "http://jagcesar.github.io/"
+baseurl: "http://jagcesar.github.io"
