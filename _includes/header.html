@@ -8,13 +8,13 @@
 <link rel="alternate" type="application/rss+xml" title="JagCesar » Feed" href="http://www.jagcesar.se/feed/">
 <link rel="alternate" type="application/rss+xml" title="JagCesar » Comments Feed" href="http://www.jagcesar.se/comments/feed/">
 <link rel="stylesheet" id="twentythirteen-fonts-css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic%7CBitter%3A400%2C700&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
-<link rel="stylesheet" id="genericons-css" href="{{ site.url }}/css/genericons.css?ver=2.09" type="text/css" media="all">
-<link rel="stylesheet" id="twentythirteen-style-css" href="{{ site.url }}/css/style.css?ver=2013-07-18" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="{{ site.baseurl }}/css/genericons.css?ver=2.09" type="text/css" media="all">
+<link rel="stylesheet" id="twentythirteen-style-css" href="{{ site.baseurl }}/css/style.css?ver=2013-07-18" type="text/css" media="all">
 <!--[if lt IE 9]>
-<link rel='stylesheet' id='twentythirteen-ie-css' href='{{ site.url }}/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<link rel='stylesheet' id='twentythirteen-ie-css' href='{{ site.baseurl }}/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
 <![endif]-->
-<script type="text/javascript" src="{{ site.url }}/js/jquery.js?ver=1.10.2"></script>
-<script type="text/javascript" src="{{ site.url }}/js/jquery-migrate.min.js?ver=1.2.1"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js?ver=1.10.2"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery-migrate.min.js?ver=1.2.1"></script>
 <meta name="generator" content="Jekyll">
 	<style type="text/css" id="twentythirteen-header-css">
 			.site-header {
@@ -52,12 +52,12 @@ class="menu-toggle">Menu</h3>
 skip-link" href="#content" title="Skip to content">Skip to content</a>
 					<div class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu">
 						<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-137">
-							<a href="{{ site.url }}/">Home</a>
+							<a href="{{ site.baseurl }}/">Home</a>
 						</li>
 						{% for page in site.pages %}
 							{% if page.menu-title != "Home" %}
 							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-137">
-								<a href="{{ site.url }}/{{ page.menu-title | downcase }}">{{ page.menu-title }}</a>
+								<a href="{{ site.baseurl }}/{{ page.menu-title | downcase }}">{{ page.menu-title }}</a>
 							</li>
 							{% endif %}
 						{% endfor %}
