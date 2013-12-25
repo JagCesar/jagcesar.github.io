@@ -17,8 +17,7 @@
 			</span>
 			<span class="tags-links">
 			{% for tag in page.tags %}
-			<!-- <a href="http://www.jagcesar.se/tag/{{tag | uri_escape}}/" rel="tag">{{tag}}</a>, -->
-				<a rel="tag">{{tag}}</a>,
+			<a href="http://www.jagcesar.se/tag/{{tag | slugize | uri_escape}}/" rel="tag">{{tag}}</a>, -->
 			{% endfor %}
 			</span>
 			<span class="author vcard">
