@@ -1,14 +1,14 @@
 {% include header.html %}
 <article class="post type-post status-publish format-standard hentry">
 	<header class="entry-header">
-				<h1 class="entry-title">
+		<h1 class="entry-title">
 			<a href="{{ post.url }}" rel="bookmark">{{ page.title }}</a>
 		</h1>
 		
 		<div class="entry-meta">
 			<span class="date">
 				<a href="{{ page.url }}" title="Permalink to {{ page.title }}" rel="bookmark">
-					<time class="entry-date" datetime="{{site.time}}}">{{ site.time | date_to_long_string }}</time>
+				<time class="entry-date" datetime="{{site.time}}}">{{ site.time | date_to_long_string }}</time>
 				</a>
 			</span>
 			<span class="categories-links">
@@ -16,22 +16,22 @@
 				<a title="View all posts in {{ page.category }}" rel="category tag">{{ page.category }}</a>
 			</span>
 			<span class="tags-links">
-			{% for tag in page.tags %}
-			<a href="http://www.jagcesar.se/tag/{{ tag | slugize }}/" rel="tag">{{tag}}</a>,
-			{% endfor %}
+				{% for tag in page.tags %}
+				<a href="http://www.jagcesar.se/tag/{{ tag | slugize }}/" rel="tag">{{tag}}</a>,
+				{% endfor %}
 			</span>
 			<span class="author vcard">
 				<a class="url fn n" href="http://www.jagcesar.se/about/" title="View all posts by Cesar" rel="author">Cesar</a>
 			</span>
-</div><!-- .entry-meta -->
+		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-		<div class="entry-content">
-			{{content}}
-			</div><!-- .entry-content -->
+	<div class="entry-content">
+		{{content}}
+	</div><!-- .entry-content -->
 	
 	<footer class="entry-meta">
 		
-			</footer><!-- .entry-meta -->
+	</footer><!-- .entry-meta -->
 </article><!-- #post -->
 {% include footer.html %}
