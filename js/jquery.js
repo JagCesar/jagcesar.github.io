@@ -352,8 +352,7 @@ e.attachEvent("onload", q);
             }()
         }
         return n.promise(t)
-    }, x.each("Boolean Number String Function Array Date RegExp Object
-Error".split(" "), function(e, t) {
+    }, x.each("Boolean Number String Function Array Date RegExp Object Error".split(" "), function(e, t) {
         c["[object " + t + "]"] = t.toLowerCase()
     });
     function M(e) {
