@@ -456,8 +456,7 @@ t.getElementsByClassName(s)), n
 "object" !== t.nodeName.toLowerCase()
                         ) {
                         c = mt(e), (d = t.getAttribute("id")) ? m =
-d.replace(nt, "\\$&") : t.setAttribute("id", m), m = "[id='" + m + "']
-", u = c.length;
+d.replace(nt, "\\$&") : t.setAttribute("id", m), m = "[id='" + m + "']", u = c.length;
                         while (u--)
                             c[u] = m + yt(c[u]);
                         y = V.test(e) && t.parentNode || t, x =
