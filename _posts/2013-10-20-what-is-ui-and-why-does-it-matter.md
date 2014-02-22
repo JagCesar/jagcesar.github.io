@@ -14,7 +14,9 @@ tags:
 - ux
 ---
 
-People keep name dropping UI, but I’ve noticed that not everybody know what it stands for and why it’s an important part of software engineering. I googled “UI” real quick to see what the internet thought about it. This is the first sentence on the article about UI on wikipedia:
+People keep name dropping UI, but I’ve noticed that not everybody know what it stands for and why it’s an important part of software engineering.
+
+I googled “UI” real quick to see what the internet thought about it. This is the first sentence on the article about UI on wikipedia:
 
 > “The **user interface**, in the industrial design field of human–machine interaction, is the space where interaction between humans and machines occurs.” – [Wikipedia](http://en.wikipedia.org/wiki/User_interface)
 
