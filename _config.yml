@@ -1,4 +1,4 @@
 lsi: false
-pygments: true
+highlighters: true
 permalink: none
 baseurl: "http://jagcesar.github.io"
