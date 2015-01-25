@@ -1,4 +1,15 @@
 /*
+
+Custom CSS
+
+*/
+
+#profileImage {
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+/*
 Theme Name: Twenty Thirteen
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: the WordPress team

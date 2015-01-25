@@ -5,18 +5,17 @@ menu-title: Home
 ---
 
 {% for post in site.posts %}
-<article class="post type-post status-publish format-standard hentry">
-	<header class="entry-header">
-		<h1 class="entry-title">
-			<a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
-		</h1>
-		
-		<div class="entry-meta">
-			<span class="date">
-				<a href="{{ post.url }}" title="Permalink to {{ post.title }}" rel="bookmark">
-					<time class="entry-date" datetime="{{ post.time }}}">{{ post.date | date_to_long_string }}</time>
-				</a>
-			</span>
+  <article class="post type-post status-publish format-standard hentry">
+	  <header class="entry-header">
+		  <h1 class="entry-title">
+			  <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+		  </h1>
+		  <div class="entry-meta">
+			  <span class="date">
+				  <a href="{{ post.url }}" title="Permalink to {{ post.title }}" rel="bookmark">
+					  <time class="entry-date" datetime="{{ post.time }}}">{{ post.date | date_to_long_string }}</time>
+				  </a>
+			  </span>
 <!--			<span class="categories-links">
 				<a title="View all posts in {{ post.category }}" rel="category tag">{{ post.category }}</a>
 			</span>
@@ -29,16 +28,12 @@ menu-title: Home
 				<a class="url fn n" href="http://www.jagcesar.se/about/" title="View all posts by Cesar" rel="author">Cesar</a>
 			</span>
 -->
-</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
-		<div class="entry-content">
-		{{ post.excerpt }}
-			</div><!-- .entry-content -->
-	
-	<footer class="entry-meta">
-		
-			</footer><!-- .entry-meta -->
-</article><!-- #post -->
-
-  {% endfor %}
+      </div><!-- .entry-meta -->
+	  </header><!-- .entry-header -->
+    <div class="entry-content">
+      {{ post.excerpt }}
+	  </div><!-- .entry-content -->
+	  <footer class="entry-meta">
+		</footer><!-- .entry-meta -->
+  </article><!-- #post -->
+{% endfor %}
