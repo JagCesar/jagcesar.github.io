@@ -1,14 +1,14 @@
 {% include header.html %}
-<article class="post type-post status-publish format-standard hentry">
-	<header class="entry-header">
-		<h1 class="entry-title">
+<article>
+	<header>
+		<h1>
 			<a href="{{ post.url }}" rel="bookmark">{{ page.title }}</a>
 		</h1>
 		
-		<div class="entry-meta">
-			<span class="date">
+		<div>
+			<span>
 				<a href="{{ page.url }}" title="Permalink to {{ page.title }}" rel="bookmark">
-				<time class="entry-date" datetime="{{ page.time }}">{{ page.date | date_to_long_string }}</time>
+				<time datetime="{{ page.time }}">{{ page.date | date_to_long_string }}</time>
 				</a>
 			</span>
 <!--			<span class="categories-links">
@@ -27,11 +27,11 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div>
 		{{content}}
 	</div><!-- .entry-content -->
 	
-	<footer class="entry-meta">
+	<footer>
 		
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->
