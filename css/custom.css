@@ -1,0 +1,23 @@
+footer {
+  background-color: #F7F7F7;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  float: left;
+  margin-right: 40px;
+}
+
+li.last-item {
+  margin-right: 0px;
+}
+
+footer ul {
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
