@@ -1,5 +1,14 @@
+a {
+  color: #6a91c5; !important
+}
+
 nav.navbar {
+  margin-top: 10px;
   margin-bottom: 40px;
+}
+
+.entry-date {
+  font-weight: bold;
 }
 
 footer {
