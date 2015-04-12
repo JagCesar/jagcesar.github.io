@@ -64,18 +64,17 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   					<ul class="nav navbar-nav">
-	  					<li {% if site.url == site.baseurl %}
+	  					<li {% if page.url == site.baseurl %}
 		  				       class="active"
 			  			    {% endif %}>
 							  <a href="{{ site.baseurl }}">Home</a>
 						  </li>
-  						{% for page in site.pages %}
-	  					{% if page.menu-title != "Home" %}
-		  				{% assign siteURL = '{{site.baseurl}}/{{page.menu-title | downcase}}' %}
-			 				<li {% if site.url == siteURL %}
+  						{% for node in site.pages %}
+	  					{% if node.menu-title != "Home" %}
+			 				<li {% if page.url == node.url %}
 							       class="active"
 							    {% endif %}>
-								<a href="{{ site.baseurl }}/{{ page.menu-title | downcase | uriencode }}">{{ page.menu-title }}</a>
+								<a href="{{ site.baseurl }}/{{ node.menu-title | downcase | uriencode }}">{{ node.menu-title }}</a>
 							</li>
 							{% endif %}
 						{% endfor %}
@@ -83,6 +82,3 @@
           </div>
 				</div>
 			</nav>
-      <p>Site base URL: {{ site.baseurl }}</p>
-      <p>Site URL: {{ site.url }}</p>
-      <p>Page URL: {{ site.baseurl }}/{{ page.menu-title | downcase | uriencode }}</p>
