@@ -71,7 +71,7 @@
 						  </li>
   						{% for page in site.pages %}
 	  					{% if page.menu-title != "Home" %}
-		  				{% assign siteURL = '{{site.basurl}}/{{page.menu-title | downcase}}' %}
+		  				{% assign siteURL = '{{site.baseurl}}/{{page.menu-title | downcase}}' %}
 			 				<li {% if site.url == siteURL %}
 							       class="active"
 							    {% endif %}>
@@ -83,3 +83,6 @@
           </div>
 				</div>
 			</nav>
+      <p>Site base URL: {{ site.baseurl }}</p>
+      <p>Site URL: {{ site.url }}</p>
+      <p>Page URL: {{ site.baseurl }}/{{ page.menu-title | downcase | uriencode }}</p>
