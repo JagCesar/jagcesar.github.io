@@ -1,5 +1,10 @@
+nav.navbar {
+  margin-bottom: 40px;
+}
+
 footer {
   background-color: #F7F7F7;
+  margin-top: 40px;
 }
 
 footer ul {
@@ -17,7 +22,7 @@ li.last-item {
 
 footer ul {
   display: inline-block;
-  margin-top: 80px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 60px;
   text-decoration: none;
 }
