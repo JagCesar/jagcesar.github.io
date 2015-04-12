@@ -1,0 +1,37 @@
+a {
+  color: #6a91c5; !important
+}
+
+nav.navbar {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.entry-date {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #F7F7F7;
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  float: left;
+  margin-right: 40px;
+}
+
+li.last-item {
+  margin-right: 0px;
+}
+
+footer ul {
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
