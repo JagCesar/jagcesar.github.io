@@ -1,5 +1,5 @@
 a {
-  color: #6a91c5; !important
+  color: #6a91c5;
 }
 
 nav.navbar {
@@ -23,10 +23,6 @@ footer ul {
 footer ul li {
   float: left;
   margin-right: 40px;
-}
-
-li.last-item {
-  margin-right: 0px;
 }
 
 footer ul {
