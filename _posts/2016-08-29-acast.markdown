@@ -1,0 +1,15 @@
+---
+title: Acast iOS App
+subtitle: iOS Engineering
+layout: default
+modal-id: 1
+date: 2016-08-29
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: April 2015 - October 2016
+client: Acast
+category: iOS Engineering
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---

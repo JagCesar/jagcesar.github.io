@@ -1,48 +1,23 @@
-
-</div> <!-- /.col-md-8 -->
-</div> <!-- /.row -->
-</div> <!-- /.container -->
-
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <center>
-  					<ul>
-              <li>
-                <a href="https://twitter.com/jagcesar" class="btn btn-social-icon btn-twitter">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://www.linkedin.com/pub/césar-pinto-castillo/19/304/942" class="btn btn-social-icon btn-linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://instagram.com/jagcesar" class="btn btn-social-icon btn-instagram">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://facebook.com/jagcesar" class="btn btn-social-icon btn-facebook">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://www.github.com/jagcesar" class="btn btn-social-icon btn-github">
-                  <i class="fa fa-github"></i>
-                </a>
-              </li>
-              <!-- <li>
-                <a href="http://dribbble.com/jagcesar" class="btn btn-social-icon btn-dribbble">
-                  <i class="fa fa-dribbble"</i>
-                </a>
-              </li>-->
-					  </ul>
-        </center>
-      </div> <!-- /.col-md-8 -->
-    </div> <!-- /.row -->
-  </div> <!-- /.container -->
-</footer>
-</body>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="mailto:cesar@jagcesar.se">Get in touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,15 @@
+---
+title: Sereni iOS App
+subtitle: iOS Engineering
+layout: default
+modal-id: 5
+date: 2014-07-15
+img: golden.png
+thumbnail: golden-thumbnail.png
+alt: image-alt
+project-date: December 2015 - May 2016
+client: Our own Product
+category: iOS Engineering
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---
