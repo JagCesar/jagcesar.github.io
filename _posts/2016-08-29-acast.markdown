@@ -1,0 +1,16 @@
+---
+title: Acast iOS App
+subtitle: iOS Engineering, UX & Project Management
+layout: default
+modal-id: 1
+date: 2016-08-29
+img: acast.png
+thumbnail: acast-thumbnail.png
+alt: image-alt
+project-date: April 2015 - October 2016
+client: Acast
+category: iOS Engineering, UX & Project Management
+description: 
+href: https://www.acast.com
+
+---

@@ -1,0 +1,16 @@
+---
+title: Blocket iOS App
+subtitle: iOS, Backend Engineering & UX
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: blocket.png
+thumbnail: blocket-thumbnail.png
+alt: image-alt
+project-date: April 2012 - November 2013
+client: Blocket
+category: iOS Engineering, Backend Engineering & UX
+description: 
+href: https://www.blocket.se
+
+---

@@ -1,138 +1,20 @@
 ---
 layout: default
-title: Passionate iOS developer with a crush for UX and ID.
-menu-title: About
 ---
 
-  <article>
-      <center>
-        <img class="img-circle" width="200" height="200" src="https://avatars1.githubusercontent.com/u/923548?v=3&amp;s=400">
-        <h1>César Pinto Castillo</h1>
-        <h4>iOS Engineer and a striving designer</h4>
-      </center>
-      <p>I will never call myself a senior developer. I believe that once you do 
-      that, you will stop listening to people who don't have that title in 
-      front of their names. I want to stay open minded.
-      </p>
-      <p>
-      I do not consider myself a hardcore programmer. I see myself as a 
-      creative geek with a passion for creating amazing software that in an 
-      easy and intuitive way offer the user the features needed to solve the 
-      task at hand. This is the the core of a great user experience.
-      </p>
-      <p>
-      I see programming as an art that is used to create solutions which 
-      makes the life of people better and easier. This is what I want to work 
-      with. Making people's lives better one step at a time. And if I run 
-      into something I don't understand, I'll just learn it.
-      </p>
-      <p>
-      How hard can it be?
-      </p>
+<div class="home">
 
-      <h1>Experience</h1>
+  <h1>Posts</h1>
 
-      <h3><a href="http://www.acast.com">Acast</a></h3>
-      <p>My main responsibility is the iOS App. This includes quality, design, interaction design and implementation.</p
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <p>Here are some of the things I've done at Acast:</p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-      <ul>
-        <li>
-          Set up Snapshot, FrameIt and Deliver to quickly take new screenshots, frame them with a device frame and upload them to iTunes Connect. Taking screenshots is usually a cumbersome process, this made our release process a lot easier which means we can release more often.
-        </li>
-        <li>
-          When I joined Acast the app looked a lot like an Android App. First thing I did was to move the Tab Bar to the bottom of the screen which makes the app more intuitive and easier to use.
-        </li>
-        <li>
-          When I began at Acast the "Rich note" feed and progress timeline were vertical. I convinced the team that it should be horizontal instead because everybody else is doing it this way. It's also a lot easier to reach to the far left and far right than top and bottom when scrubbing. We also decided to remove the volume-slider since the user already has two volume buttons on the side of the device.
-        </li>
-      </ul>
-
-      <a href="https://itunes.apple.com/us/app/acast-makes-good-stories-great/id925311796?mt=8&uo=6&at=&ct=" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}"></a>
-      <hr>
-
-      <h3><a href="http://www.wrapp.com">Wrapp</a></h3>
-      <p>I wanted to work with Wrapp to see how it was to work with a startup and more importantly to work with the people working here. Some of my colleagues at Wrapp are successful entrepreneurs and have been part of creating big products in the past (Spotify and Rebtel for example). Working closely with these individuals means a lot to me as I get to pick their brains and learn how they work and how they make decisions.</p>
-      <p>On the 2nd of September 2014 we decided to close down our San Francisco office. We had a new product idea we wanted to try, which would replace our current one. The best place to try it out would be our home court, we knew the market and we had the contacts. I was offered a position back in Sweden so I packed up my stuff and moved back home.</p>
-
-      <p>This is my first job where I am "just" a developer, at previous employers I've always had something to say about the product. It's not in my comfort zone, which is a good thing. I will always continue to develop as long as I stay in the deep end of the pool.</p>
-
-      <a href="https://itunes.apple.com/se/app/wrapp/id458640944?mt=8&uo=6&at=&ct=" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}"></a>
-
-      <hr>
-      <h3><a href="http://www.blocket.se">Blocket</a></h3>
-      <p> My first role at Blocket was as a backend developer. I learned their own programming language during my first week and implemented an optimized version of their mobile web index page. Backend development could only be done in a terminal so all code was written using vim.</p>
-
-      <p>My second role was iOS Developer. There was a lot work that needed to be done with the Apps due to technical debt, which slowed down implementation of new features. Once we catched up to our deadlines we decided to rewrite the app from scratch. I wrote the function specification to be able to verify that all functions existed in the new App when we were done. This also made it easier to estimate the time and set up goals for our sprints.</p>
-
-      <p>I made wireframes of how the new app should work to make the app more intuitive, which would lead to better conversion rate.</p>
-      <a href="https://itunes.apple.com/us/app/blocket/id323710525?mt=8&uo=6&at=&ct=" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}"></a>
-      <hr>
-
-      <h3>Ideal Apps</h3>
-      <p>This was my very first job as an employed iOS developer. As Ideal Apps still was fairly young it needed routines and processes. Besides developing iOS Apps I did the following;</p>
-      
-      <p>I started by writing Function specifications for our projects. This made it easier for us to estimate time and cost for each project, and to assure the quality in our apps.</p>
-
-      <p>Besides this I handled the communication with the client in the projects where I were involved.</p>
-
-      <p>In the projects where there were more developers than me involved, I acted as a project manager for me and my colleagues.</p>
-
-      <p>Ideal Apps chose to send me to WWDC 2011 with their CTO Jürgen Buchmann, I will be forever thankful as this opened up a new world for me.</p>
-
-      <p>Clients I worked with:</p>
-
-      <p><ul>
-        <li>TV4 Play. I was responsible for specifying and implementing ads in their iOS app.</li>
-        <li>Idol (swedish version of American Idol). The idols received an Android phone with a preinstalled app where the idols could listen to the songs for the upcoming week. I implemented the API and the backend UI where tracks could be uploaded and the user accounts could be managed</li>
-        <li>GS1 wanted an App where you could scan products, add them to your basket and pay at the cash register. I implemented the backend that stored the product information, offered an API for the App to use and connected this information with a real cash register from Visma</li>
-      </ul></p>
-      <!--      <hr>
-      <h2>Other Apps I've worked with</h2>
-      <ul>
-        <li>TV4 Play</li>
-        <li>Idol</li>
-        <li>Unionen</li>
-        <li>GS1</li>
-      </ul>
--->
-
-      <h1>Projects</h1>
-
-      <h3><a href="http://www.nutrif.io">Nutrif.io</a></h3>
-      <p>There are several ways of tracking your daily active calories.
-      They require minimum effort and even look good when you wear them.
-      </p>
-      <p>This data is however completely useless if you don't track your
-      daily calorie intake. There are a few solutions out there today, 
-      but we think they are too complicated and time consuming for the 
-      regular user.</p>
-      <p>Nutrif.io is the easiest way to keep track of your dietary 
-      calories by simply scanning your daily snacks before you eat them.
-      There is a lot more we want to do, so stay tuned for more amazing
-      features.</p>
-      <a href="https://itunes.apple.com/us/app/nutrif.io-count-calories-track/id924999887?mt=8&uo=6&at=&ct=" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}"></a>
-      <hr>
-      <h3>iOS-blur</h3>
-      <p>
-      In iOS 7 a new view was introduced that was transparent and had a 
-      nice blur effect. Apple did not introduced a public API for this 
-      view, so only Apple could create blurred views that updated in 
-      realtime.
-      </p>
-      <p>
-      I needed this in one of my projects, so after some thinking I 
-      came up with an incredibly simple idea. I initiated a UIToolbar 
-      object, and added it as a subview to my UIView subclass.
-      </p>
-      <iframe src="https://ghbtns.com/github-btn.html?user=jagcesar&repo=ios-blur&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-      <hr>
-      <h3>Clippy</h3>
-      <p>I get around using public transportion in San Francisco. To do that you get a "Clipper Card" which you charge with money. Then you just swipe it each time you are traveling by bus or subway.</p>
-      <p>It works, but there is no easy way to easily check your balance. They do have a mobile website at m.clippercard.com. However the UX is terrible. For example, the first thing you see when you sign in is your name and where you live. My guess is that the user knows her name and didn't sign in to clippercard to see her name, most people probably want to either refill their clippercard or check their balance.</p>
-      <p>To get Clippy working I had to reverse engineer their backend, which was quite timeconsuming. That's why I added iAd to the app. </p>
-      <a href="https://geo.itunes.apple.com/us/app/clippy/id842231884?mt=8&uo=6&at=1001l3IC" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;@media only screen{background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}"></a> 
-	  <footer>
-		</footer><!-- .entry-meta -->
-  </article><!-- #post -->
+</div>
