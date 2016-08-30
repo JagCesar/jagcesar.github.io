@@ -6,60 +6,28 @@ baseurl: "https://jagcesar.se"
 # Site settings
 title: JagCesar
 email: cesar@jagcesar.se
-description: "César Pinto Castillo is an experienced iOS Engineer with a passion for creating intuitive user experiences and insanely great products."
+description: "An experienced iOS Engineer with a passion for creating intuitive user experiences and insanely great products."
 
 
 # Team names, titles and social links
 people:
 - name: César Pinto Castillo
-  pic: 1
-  position: iOS Engineer, UX Designer and striving designer
+  pic: cesar
+  position: iOS Engineer, UX Designer & Product Manager
   social:
     - title: twitter
-      url: https://twitter.com/jagcesar
+      url: http://twitter.com/jagcesar
     - title: facebook
-      url: #https://www.facebook.com/JagCesar
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://www.facebook.com/JagCesar
+    - title: github
+      url: http://github.com/JagCesar
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://www.linkedin.com/in/jagcesar
+    - title: dribbble
+      url: https://dribbble.com/JagCesar
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jagcesar
-  - title: facebook
-    url: https://www.facebook.com/JagCesar
-  #- title: stack-overflow
-  #  url: http://stackoverflow.com/questions/tagged/jekyll
-  #- title: bitbucket 
-  #  url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/JagCesar
-  - title: linkedin
-    url: https://www.linkedin.com/in/jagcesar
-  - title: dribbble
-    url: https://dribbble.com/JagCesar
 
 # Postal address (add as many lines as necessary)
 address:
