@@ -1,0 +1,16 @@
+---
+title: Cookin iOS App
+subtitle: Swift, CloudKit
+layout: default
+modal-id: 4
+date: 2014-07-16
+img: cookin.png
+thumbnail: cookin-thumbnail.png
+alt: image-alt
+project-date: August 2016 - Present
+client: Founded
+category: iOS Engineering, CloudKit,
+description: Cookin is the place for you to store your favorite recipes and browse new ones. This product is driven completely by CloudKit, which means there is no backend that I have to maintain.
+href: https://cookin.info
+
+---

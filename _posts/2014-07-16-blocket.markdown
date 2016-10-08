@@ -1,6 +1,6 @@
 ---
 title: Blocket iOS App
-subtitle: iOS, Backend Engineering & UX
+subtitle: Obj-C, iOS, UX
 layout: default
 modal-id: 3
 date: 2014-07-16
