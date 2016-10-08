@@ -1,6 +1,6 @@
 ---
 title: Acast iOS App
-subtitle: iOS Engineering, UX & Project Management
+subtitle: Obj-C, Swift, Node JS, iOS, Azure, UX
 layout: default
 modal-id: 1
 date: 2016-08-29

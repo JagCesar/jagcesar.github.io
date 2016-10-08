@@ -1,6 +1,6 @@
 ---
 title: Wrapp iOS App
-subtitle: iOS Engineering & UX
+subtitle: Obj-C, Swift, UX, iOS
 layout: default
 modal-id: 2
 date: 2014-07-17
