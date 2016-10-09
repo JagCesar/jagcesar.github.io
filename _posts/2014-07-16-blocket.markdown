@@ -12,5 +12,6 @@ client: Blocket
 category: iOS Engineering, Backend Engineering & UX
 description: 
 href: https://www.blocket.se
+app-id: 323710525
 
 ---
