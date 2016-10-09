@@ -12,5 +12,6 @@ client: Founded
 category: iOS Engineering, CloudKit,
 description: Cookin is the place for you to store your favorite recipes and browse new ones. This product is driven completely by CloudKit, which means there is no backend that I have to maintain.
 href: https://cookin.info
+app-id: 1102236212
 
 ---
