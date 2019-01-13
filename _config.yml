@@ -7,25 +7,31 @@ baseurl: "https://jagcesar.se"
 title: JagCesar
 company: Jay C AB
 email: cesar@jagcesar.se
-description: "An experienced iOS Engineer with a passion for creating intuitive user experiences and insanely great products."
+description: ""
 
 
 # Team names, titles and social links
 people:
 - name: César Pinto Castillo
   pic: cesar
-  position: iOS Engineer, UX Designer & Product Manager
+  position: iOS Engineer
   social:
     - title: twitter
-      url: http://twitter.com/jagcesar
-    - title: facebook
-      url: https://www.facebook.com/JagCesar
+      url: https://twitter.com/jagcesar
     - title: github
-      url: http://github.com/JagCesar
+      url: https://github.com/JagCesar
     - title: linkedin
       url: https://www.linkedin.com/in/jagcesar
     - title: dribbble
       url: https://dribbble.com/JagCesar
+- name: Sofia Larsson
+  pic: sofia
+  position: Illustrator and iOS engineer
+  social:
+    - title: twitter
+      url: https://twitter.com/sclarsson
+    - title: instagram
+      url: https://instagram.com/fosiadesign
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
