@@ -4,7 +4,7 @@ permalink: none
 baseurl: "https://jagcesar.se"
 
 # Site settings
-title: JagCesar
+title: Ambi
 company: Jay C AB
 email: cesar@jagcesar.se
 description: ""
@@ -12,7 +12,7 @@ description: ""
 
 # Team names, titles and social links
 people:
-- name: César Pinto Castillo
+- name: César
   pic: cesar
   position: iOS Engineer
   social:
@@ -24,7 +24,7 @@ people:
       url: https://www.linkedin.com/in/jagcesar
     - title: dribbble
       url: https://dribbble.com/JagCesar
-- name: Sofia Larsson
+- name: Sofia
   pic: sofia
   position: Illustrator and iOS engineer
   social:
