@@ -1,6 +1,6 @@
 ---
 title: Volante
-subtitle: Automatic drive journal for your Tesla
+subtitle: A user friendly trip journal
 layout: default
 modal-id: 3
 date: 2014-07-17
